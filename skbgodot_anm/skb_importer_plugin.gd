@@ -55,6 +55,22 @@ func _import(source_file, save_path, options, platform_variants, gen_files):
 		var posx := file.get_16() * ScaleX
 		var posy := file.get_16() * ScaleY
 		var posz := file.get_16() * ScaleZ
+		#TODO decrypt the bitwise rotations and positions
+		#doing this without rotation and position matrix
+		if rotx:
+			pass
+		if roty:
+			pass
+		if rotz:
+			pass
+		if rotw:
+			pass
+		if posx:
+			pass
+		if posy:
+			pass
+		if posz:
+			pass
 		if TimeIndex == 0:
 			boneid += 1
 	for fr in range(frameCount):
